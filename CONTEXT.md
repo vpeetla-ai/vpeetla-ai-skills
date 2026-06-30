@@ -2,7 +2,7 @@
 
 Shared vocabulary for all org repos. Agents should use these terms consistently.
 
-## Stack layers (6 questions)
+## Stack layers (7 questions + engineering)
 
 | Layer | Question | Repo | Demo |
 |-------|----------|------|------|
@@ -12,6 +12,8 @@ Shared vocabulary for all org repos. Agents should use these terms consistently.
 | AgentOps | How do we operate fleets? | aegisloop-agentops-workbench | aegisloop-agentops-workbench.vercel.app |
 | Application | What do they produce? | ai-content-factory | ai-content-factory-iota.vercel.app |
 | Self-improvement | How do agents improve? | loop-engine-agent-platform | demo-omega-taupe.vercel.app |
+| Inference | How do we serve LLMs at scale? | vllm-architecture-lab | vllm-architecture-lab.vercel.app |
+| Engineering | How do agents & engineers develop? | vpeetla-ai-skills | github.com/vpeetla-ai/vpeetla-ai-skills |
 
 ## Core terms
 
@@ -25,6 +27,9 @@ Shared vocabulary for all org repos. Agents should use these terms consistently.
 | **Mission** | Bounded AgentOps unit in AegisLoop (research, content, incident, etc.) |
 | **Orchestrator** | LangGraph node that plans and routes between specialist agents |
 | **loopforge/fix-{id}** | Branch name for automated repo fixes — never push directly to `main` |
+| **Continuous batching** | Per-step slot reuse in inference scheduler |
+| **MCP** | Model Context Protocol — standardized agent-to-tool access |
+| **Agent Skills** | SKILL.md packages for Cursor, Codex, Claude Code (vpeetla-ai-skills) |
 | **Stub mode** | `AGENT_RUNTIME_MODE=local_stub` or MockLLM — no API keys required |
 
 ## Agent patterns (VAP series)

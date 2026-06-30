@@ -65,6 +65,11 @@ cp AGENTS.md CONTEXT.md ../your-repo/
 | [deploy-vercel-render](skills/deploy-vercel-render/) | Model | UI on Vercel, API on Render, `plan: free` |
 | [tdd-agent-loops](skills/tdd-agent-loops/) | Model | Red-green-refactor for agent graph changes |
 | [portfolio-adr](skills/portfolio-adr/) | User | ADRs, case studies, honest status tables |
+| [mcp-tool-exposure](skills/mcp-tool-exposure/) | Model | MCP servers, tool bridge, 2026 tool-access layer |
+| [production-observability](skills/production-observability/) | Model | Langfuse, OTel, trace + eval regression |
+| [honest-status-table](skills/honest-status-table/) | User | README ✅/🟡/❌ tables; portfolio sync |
+| [vllm-inference](skills/vllm-inference/) | Model | PagedAttention, batching, KV budget, GPU sizing |
+| [agent-protocol-stack-2026](skills/agent-protocol-stack-2026/) | Model | Skills → MCP → Gateway → Observability |
 
 **User-invoked** — you type the skill name. **Model-invoked** — agent loads when task matches description.
 
@@ -86,6 +91,8 @@ Read [CONTEXT.md](CONTEXT.md) before working in any org repo. It defines terms l
 | aegisloop-agentops-workbench | governed-ai-stack, langgraph-orchestration, deploy-vercel-render |
 | ai-content-factory | aegis-gateway, hitl-side-effects, langgraph-orchestration |
 | loop-engine-agent-platform | loop-engineering, repo-fix-pr, tdd-agent-loops |
+| vllm-architecture-lab | vllm-inference, agent-protocol-stack-2026 |
+| vpeetla-ai-skills | agent-protocol-stack-2026, honest-status-table |
 | agent-pattern repos | tdd-agent-loops, agentic-engineering |
 | ai-architecture-portfolio | portfolio-adr, governed-ai-stack |
 
