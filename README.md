@@ -70,6 +70,7 @@ cp AGENTS.md CONTEXT.md ../your-repo/
 | [honest-status-table](skills/honest-status-table/) | User | README ✅/🟡/❌ tables; portfolio sync |
 | [vllm-inference](skills/vllm-inference/) | Model | PagedAttention, batching, KV budget, GPU sizing |
 | [agent-protocol-stack-2026](skills/agent-protocol-stack-2026/) | Model | Skills → MCP → Gateway → Observability |
+| [enterprise-ai-architect](skills/enterprise-ai-architect/) | Model | Principal architect reviews, ADRs, honest trade-offs |
 
 **User-invoked** — you type the skill name. **Model-invoked** — agent loads when task matches description.
 

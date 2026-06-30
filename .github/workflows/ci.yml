@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  smoke-install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install smoke test
+        run: chmod +x scripts/smoke_test.sh && ./scripts/smoke_test.sh
+      - name: Validate skill frontmatter
+        run: |
+          missing=0
+          for f in skills/*/SKILL.md; do
+            grep -q '^name:' "$f" || { echo "missing name: $f"; missing=1; }
+            grep -q '^description:' "$f" || { echo "missing description: $f"; missing=1; }
+          done
+          exit $missing
+      - name: MCP stdio server tests
+        run: python tests/test_mcp_stdio.py
