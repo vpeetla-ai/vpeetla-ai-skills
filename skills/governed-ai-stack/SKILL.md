@@ -1,9 +1,8 @@
 ---
 name: governed-ai-stack
 description: >-
-  Maps tasks to the vpeetla-ai 6-layer reference stack (VAP, AegisAI, Enterprise
-  RAG, AegisLoop, Content Factory, LoopForge). Use when choosing which repo to
-  change, designing integrations, or explaining architecture.
+  Maps tasks to the vpeetla-ai reference stack (VAP, AegisAI, RAG, AgentOps,
+  Content, LoopForge, vLLM Lab, Skills). Use when choosing which repo to change.
 ---
 
 # Governed AI Stack
@@ -20,6 +19,8 @@ Read [CONTEXT.md](../../CONTEXT.md) for terms.
 | Missions, traces, eval gates, FinOps | aegisloop-agentops-workbench |
 | Content pipeline, publish, cron | ai-content-factory |
 | Self-improving loops, repo fix, RAG tuning | loop-engine-agent-platform |
+| LLM inference, KV cache, batching education | vllm-architecture-lab |
+| Agent skills, MCP, protocol stack | vpeetla-ai-skills |
 | ADRs, case studies, portfolio copy | ai-architecture-portfolio |
 | Public site, ecosystem wiring | venkat-ai-portfolio |
 | Single pattern reference (ReAct, etc.) | *-agent-pattern repos |
