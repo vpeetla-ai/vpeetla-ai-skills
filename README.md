@@ -71,6 +71,7 @@ cp AGENTS.md CONTEXT.md ../your-repo/
 | [vllm-inference](skills/vllm-inference/) | Model | PagedAttention, batching, KV budget, GPU sizing |
 | [agent-protocol-stack-2026](skills/agent-protocol-stack-2026/) | Model | Skills → MCP → Gateway → Observability |
 | [enterprise-ai-architect](skills/enterprise-ai-architect/) | Model | Principal architect reviews, ADRs, honest trade-offs |
+| [agents-that-run-for-days](skills/agents-that-run-for-days/) | Model | Karpathy LOOPS.md — overnight loops, program.md, keep/discard |
 
 **User-invoked** — you type the skill name. **Model-invoked** — agent loads when task matches description.
 

@@ -61,6 +61,8 @@ Read [ADR-007](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main
 2. ADR when crossing service boundaries
 3. Case study update in `ai-architecture-portfolio`
 4. Skill or CONTEXT.md update when pattern is reusable
+5. `docs/PRODUCT.md` — who we serve, job-to-be-done, trade-offs (platform repos)
+6. `docs/LOOPS.md` — when agent runs overnight (see `agents-that-run-for-days` skill)
 
 ## Related skills
 
