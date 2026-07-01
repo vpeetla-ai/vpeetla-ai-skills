@@ -13,6 +13,7 @@ Shared vocabulary for all org repos. Agents should use these terms consistently.
 | Application | What do they produce? | ai-content-factory | ai-content-factory-iota.vercel.app |
 | Self-improvement | How do agents improve? | loop-engine-agent-platform | demo-omega-taupe.vercel.app |
 | Inference | How do we serve LLMs at scale? | vllm-architecture-lab | vllm-architecture-lab.vercel.app |
+| Evaluation | How do we prove quality does not regress? | golden-eval-registry | github.com/vpeetla-ai/golden-eval-registry |
 | Engineering | How do agents & engineers develop? | vpeetla-ai-skills | github.com/vpeetla-ai/vpeetla-ai-skills |
 
 ## Core terms
@@ -30,6 +31,7 @@ Shared vocabulary for all org repos. Agents should use these terms consistently.
 | **Continuous batching** | Per-step slot reuse in inference scheduler |
 | **MCP** | Model Context Protocol — standardized agent-to-tool access |
 | **Agent Skills** | SKILL.md packages for Cursor, Codex, Claude Code (vpeetla-ai-skills) |
+| **Golden eval** | Locked fixture + expectation + threshold shared across repos |
 | **Stub mode** | `AGENT_RUNTIME_MODE=local_stub` or MockLLM — no API keys required |
 
 ## Agent patterns (VAP series)

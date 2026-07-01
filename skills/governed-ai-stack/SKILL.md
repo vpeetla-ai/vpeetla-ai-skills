@@ -20,6 +20,7 @@ Read [CONTEXT.md](../../CONTEXT.md) for terms.
 | Content pipeline, publish, cron | ai-content-factory |
 | Self-improving loops, repo fix, RAG tuning | loop-engine-agent-platform |
 | LLM inference, KV cache, batching education | vllm-architecture-lab |
+| Golden eval fixtures, regression contracts, cross-repo quality proof | golden-eval-registry |
 | Agent skills, MCP, protocol stack | vpeetla-ai-skills |
 | ADRs, case studies, portfolio copy | ai-architecture-portfolio |
 | Public site, ecosystem wiring | venkat-ai-portfolio |
