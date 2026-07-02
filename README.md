@@ -1,5 +1,9 @@
 # vpeetla-ai Skills
 
+
+<!-- vpeetla-tech-stack:start -->
+[![Shell](https://img.shields.io/badge/Shell-89E051?style=flat-square)]() [![Markdown](https://img.shields.io/badge/Markdown-083FA1?style=flat-square)]() [![MCP](https://img.shields.io/badge/MCP-374151?style=flat-square)]() [![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square)]()
+<!-- vpeetla-tech-stack:end -->
 ### Agent skills for real engineering — Cursor, Codex, and Claude Code
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
