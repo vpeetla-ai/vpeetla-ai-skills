@@ -16,7 +16,8 @@ Read [CONTEXT.md](../../CONTEXT.md) for terms.
 | Multi-agent orchestration, RAG strategies, notify | venkat-ai-platform |
 | Policy, HITL, audit, tool authorization | aegisai-enterprise-agent-platform |
 | Retrieval, citations, access control | enterprise_rag_platform |
-| Missions, traces, eval gates, FinOps | aegisloop-agentops-workbench |
+| Missions, traces, eval gates | aegisloop-agentops-workbench |
+| Real usage metering, budgets, cost-breach signals | agent-finops |
 | Content pipeline, publish, cron | ai-content-factory |
 | Self-improving loops, repo fix, RAG tuning | loop-engine-agent-platform |
 | LLM inference, KV cache, batching education | vllm-architecture-lab |
