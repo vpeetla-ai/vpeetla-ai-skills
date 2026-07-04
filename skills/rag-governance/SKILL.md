@@ -10,7 +10,12 @@ description: >-
 
 ## Principles
 
-1. **Access before ranking** — filter by tenant/role before vector search
+1. **Access before ranking** — filter by tenant/role before vector search. This only holds if
+   tenant/role/clearance come from a **verified** identity (JWT/OIDC claims) — never trust
+   these fields if they arrive as plain request-body values with no signature behind them.
+   `enterprise_rag_platform` shipped with client-asserted Principal fields for a while before
+   this was caught and documented (see its `docs/adr/0004-api-auth-and-principal-trust.md`) —
+   don't repeat that when wiring a new access-aware RAG endpoint.
 2. **Citations required** — every answer cites chunk IDs
 3. **HITL for sensitive** — low confidence or PII-tagged chunks → gateway pause
 
