@@ -22,6 +22,7 @@ Read [CONTEXT.md](../../CONTEXT.md) for terms.
 | Self-improving loops, repo fix, RAG tuning | loop-engine-agent-platform |
 | LLM inference, KV cache, batching education | vllm-architecture-lab |
 | Golden eval fixtures, regression contracts, cross-repo quality proof | golden-eval-registry |
+| Interview prep — system design, cloud architecture, STAR, trade-offs | ai-architect-interview-playbook |
 | Agent skills, MCP, protocol stack | vpeetla-ai-skills |
 | ADRs, case studies, portfolio copy | ai-architecture-portfolio |
 | Public site, ecosystem wiring | venkat-ai-portfolio |
