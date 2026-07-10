@@ -61,7 +61,7 @@ cp AGENTS.md CONTEXT.md ../your-repo/
 | [setup-vpeetla-skills](skills/setup-vpeetla-skills/) | User | One-time repo bootstrap (tracker, labels, docs path) |
 | [grill-with-context](skills/grill-with-context/) | User | Align on plan + sharpen CONTEXT.md before big changes |
 | [agentic-engineering](skills/agentic-engineering/) | Model | Karpathy discipline: think, simplify, surgical diffs, verify |
-| [governed-ai-stack](skills/governed-ai-stack/) | Model | 6-layer map — which repo answers which question |
+| [governed-ai-stack](skills/governed-ai-stack/) | Model | Stack-layer map — which repo answers which question |
 | [langgraph-orchestration](skills/langgraph-orchestration/) | Model | StateGraph nodes, routing, checkpointers, HITL interrupt |
 | [aegis-gateway](skills/aegis-gateway/) | Model | Gateway before notify/publish/deploy side effects |
 | [loop-engineering](skills/loop-engineering/) | Model | ODAEU harness, evolve RAG, procedural memory |
