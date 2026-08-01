@@ -1,0 +1,48 @@
+---
+description: ALWAYS attribute every git commit and PR to Venkata Peetla — any repo, any org, anytime
+alwaysApply: true
+---
+
+# Git author — Venkata Peetla (global)
+
+**Scope:** Every repository you touch — entire `vpeetla-ai` org, forks, local clones, new repos, playbooks, labs, portfolio, skills, handbook, anything. Not limited to one project.
+
+Whenever you **commit** or **open a PR**:
+
+## Identity (required)
+
+| Field | Value |
+|-------|--------|
+| Author name | `Venkata Peetla` |
+| Author email | `vpeetla.ai@gmail.com` |
+| Committer name | `Venkata Peetla` |
+| Committer email | `vpeetla.ai@gmail.com` |
+| GitHub actor | `vpeetla-ai` |
+
+## How to commit
+
+Do **not** change `git config`. Override per commit:
+
+```bash
+export GIT_AUTHOR_NAME="Venkata Peetla"
+export GIT_AUTHOR_EMAIL="vpeetla.ai@gmail.com"
+export GIT_COMMITTER_NAME="Venkata Peetla"
+export GIT_COMMITTER_EMAIL="vpeetla.ai@gmail.com"
+git -c user.name="Venkata Peetla" -c user.email="vpeetla.ai@gmail.com" \
+  commit --author="Venkata Peetla <vpeetla.ai@gmail.com>" -m "$(cat <<'EOF'
+Message.
+
+EOF
+)"
+```
+
+## Forbidden (every repo)
+
+- `Co-authored-by: Cursor` / `cursoragent` / any Cursor bot
+- Author or committer `Cursor`, `cursoragent`, or `GitHub <noreply@github.com>`
+- Treating this as “only for playbook / portfolio / content-factory”
+
+## PRs
+
+- `gh pr create` as authenticated `vpeetla-ai`
+- No “Made with Cursor” footer unless Venkata explicitly asks

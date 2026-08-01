@@ -10,9 +10,9 @@
 [![Org](https://img.shields.io/badge/GitHub-vpeetla--ai-blue)](https://github.com/vpeetla-ai)
 [![Portfolio](https://img.shields.io/badge/🌐_venkat--ai.com-Portfolio-5eead4)](https://venkat-ai.com/work)
 
-> Shared skills for the [vpeetla-ai](https://github.com/vpeetla-ai) reference stack — orchestration, governance, RAG, AgentOps, content, and loop engineering.
+> Small, composable skills for the [vpeetla-ai](https://github.com/vpeetla-ai) stack. They encode the judgments we keep re-learning — gateway before side effects, access before ranking, orchestration ≠ governance — so agents don't invent a new architecture every PR.
 
-**Portfolio:** [Case study](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/case-studies/vpeetla-ai-skills.md) · [Repo index](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/REPO_INDEX.md)
+**Portfolio:** [Case study](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/case-studies/vpeetla-ai-skills.md) · [Repo index](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/REPO_INDEX.md) · [Human voice bar](docs/HUMAN_VOICE_PASS.md)
 >
 > Inspired by [mattpocock/skills](https://github.com/mattpocock/skills) (composable, small, test-driven) and [Andrej Karpathy's agentic engineering](https://www.youtube.com/watch?v=96jN2OCOfLs) (harness, eval loops, quality bar — not vibe coding).
 

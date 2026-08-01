@@ -24,6 +24,7 @@ This org builds **governed agent systems**, not chat demos:
 - `pip install -e ".[dev]"` + `pytest -q` before claiming done
 - README: badges → problem → 60s diagram → **honest status table** → quick start
 - Deploy: Vercel (UI) + Render (API); see `render.yaml`
+- **Commits & PRs (entire org, anytime):** author/committer always `Venkata Peetla <vpeetla.ai@gmail.com>` on **every** `vpeetla-ai` repo and any clone — never Cursor as author, never `Co-authored-by: Cursor`. Skill: `git-commit-author`. User rule: `git-author-venkata` (`alwaysApply`). Install: `./scripts/install-git-author-rule.sh`
 
 ## Skills repo
 
