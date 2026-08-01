@@ -38,6 +38,8 @@ curl -X POST https://loopforge-api.onrender.com/api/repo-fix \
 - **Never** push to `main`
 - Branch: `loopforge/fix-{run_id[:12]}`
 - PR body includes run_id, review score, test status
+- **Git author:** always `Venkata Peetla <vpeetla.ai@gmail.com>` (author + committer). Never
+  `Co-authored-by: Cursor`. See skill `git-commit-author`.
 - `local_path` only works when `LOOPFORGE_API_KEY` is unset (dev-only) — rejected once the
   key is enforced
 - Even authenticated, `run_pytest` executes cloned code with no container isolation — only
