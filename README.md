@@ -78,6 +78,7 @@ cp AGENTS.md CONTEXT.md ../your-repo/
 | [agent-protocol-stack-2026](skills/agent-protocol-stack-2026/) | Model | Skills → MCP → Gateway → Observability |
 | [enterprise-ai-architect](skills/enterprise-ai-architect/) | Model | Principal architect reviews, ADRs, honest trade-offs |
 | [agents-that-run-for-days](skills/agents-that-run-for-days/) | Model | Karpathy LOOPS.md — overnight loops, program.md, keep/discard |
+| [git-commit-author](skills/git-commit-author/) | Model | Org-wide commit/PR identity — Venkata Peetla only; never Cursor co-author |
 
 **User-invoked** — you type the skill name. **Model-invoked** — agent loads when task matches description.
 
@@ -100,9 +101,10 @@ Read [CONTEXT.md](CONTEXT.md) before working in any org repo. It defines terms l
 | ai-content-factory | aegis-gateway, hitl-side-effects, langgraph-orchestration |
 | loop-engine-agent-platform | loop-engineering, repo-fix-pr, tdd-agent-loops |
 | vllm-architecture-lab | vllm-inference, agent-protocol-stack-2026 |
-| vpeetla-ai-skills | agent-protocol-stack-2026, honest-status-table |
+| ai-architect-practice-arena | honest-status-table, portfolio-adr, git-commit-author |
+| vpeetla-ai-skills | agent-protocol-stack-2026, honest-status-table, git-commit-author |
 | agent-pattern repos | tdd-agent-loops, agentic-engineering |
-| ai-architecture-portfolio | portfolio-adr, governed-ai-stack |
+| ai-architecture-portfolio | portfolio-adr, governed-ai-stack, git-commit-author |
 
 ---
 

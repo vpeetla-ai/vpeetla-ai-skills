@@ -51,13 +51,23 @@ Existing files are backed up with a timestamp suffix.
 
 ### Verify
 
-Open the repo in Codex; root instructions should reference the 6-layer stack and gateway rules.
+Open the repo in Codex; root instructions should reference the stack layers and gateway rules.
 
 ## Both editors at once
 
 ```bash
 ./scripts/install.sh --cursor --codex --project /path/to/your-repo
 ```
+
+## Git author rule (org-wide)
+
+Every commit/PR in any `vpeetla-ai` repo must be authored as **Venkata Peetla** (`vpeetla.ai@gmail.com`) — never Cursor as author or `Co-authored-by: Cursor`.
+
+```bash
+./scripts/install-git-author-rule.sh
+```
+
+Installs the always-apply Cursor rule (`~/.cursor/rules/git-author-venkata.mdc`) and the `git-commit-author` skill globally. See [skills/git-commit-author](../skills/git-commit-author/).
 
 ## First-time repo bootstrap
 
