@@ -23,6 +23,7 @@ Read [CONTEXT.md](../../../CONTEXT.md) for terms.
 | LLM inference, KV cache, batching education | vllm-architecture-lab |
 | Golden eval fixtures, regression contracts, cross-repo quality proof | golden-eval-registry |
 | Interview prep — system design, cloud architecture, STAR, trade-offs | ai-architect-interview-playbook |
+| BYOK mock-interview judge over playbook rubrics | ai-architect-practice-arena |
 | Agent skills, MCP, protocol stack | vpeetla-ai-skills |
 | ADRs, case studies, portfolio copy | ai-architecture-portfolio |
 | Public site, ecosystem wiring | venkat-ai-portfolio |

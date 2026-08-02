@@ -21,5 +21,5 @@ jobs:
             grep -q '^description:' "$f" || { echo "missing description: $f"; missing=1; }
           done
           exit $missing
-      - name: MCP stdio server tests
-        run: python tests/test_mcp_stdio.py
+      - name: Catalog sync + MCP tests
+        run: python -m unittest discover -s tests -q
